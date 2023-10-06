@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+  flex-direction: column;
+  .moreProducts {
+    width: 90%;
+    h3 {
+      font-size: 30px;
+      span {
+        color: var(--orange);
+      }
+    }
+  }
+}
