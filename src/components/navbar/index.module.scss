@@ -5,6 +5,12 @@
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(10px);
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  border-bottom: 1px solid #a7a8a6;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   .logoContainer {
     width: 100px;

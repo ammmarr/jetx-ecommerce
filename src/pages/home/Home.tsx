@@ -4,6 +4,7 @@ import DisplayProducts from "../../components/DisplayProducts/DisplayProducts";
 import Navbar from "../../components/navbar/Navbar";
 import transition from "../../utils/pageTranistion/transition";
 import style from "./index.module.scss";
+import HeroCard from "../../components/heroCard/HeroCard";
 
 // interface FilterObject {
 //   brand: string[];
@@ -90,9 +91,10 @@ const Products = () => {
   return (
     <>
       <Navbar />
+      <HeroCard />
       <div className={style.container}>
         <h1>
-          Our Products <span>!</span>
+          Featured Products <span>!</span>
         </h1>
         <div className={style.filterAndDisplayContainer}>
           <DisplayProducts data={data} onFilterChange={handleFilterChange} />

@@ -1,10 +1,11 @@
 import GridViewIcon from "@mui/icons-material/GridView";
 import ListIcon from "@mui/icons-material/List";
 import { useState } from "react";
-import ProductCard from "../productCard/ProductCard";
-import style from "./index.module.scss";
-import ProductCardSquare from "../productCard/productCardSquare/ProductCardSquare";
+import { useLocation, useNavigate } from "react-router-dom";
 import FilterCard from "../filterCard/FilterCard";
+import ProductCard from "../productCard/ProductCard";
+import ProductCardSquare from "../productCard/productCardSquare/ProductCardSquare";
+import style from "./index.module.scss";
 
 interface DisplayProductsProps {
   data: any;
@@ -13,14 +14,23 @@ interface DisplayProductsProps {
 const DisplayProducts: React.FC<DisplayProductsProps> = (props) => {
   const [gridView, setGridView] = useState(true);
   const { data, onFilterChange } = props;
-  // console.log(props, "mid");
+  const location = useLocation();
+  const navigate = useNavigate();
+  const displayFilters = location.pathname != "/" ? true : false;
+  function handleClick() {
+    !displayFilters && navigate("/products");
+  }
   return (
     <div className={style.container}>
       <div className={style.optionContainer}>
-        <FilterCard products={data} onFilterChange={onFilterChange} />
+        {displayFilters && (
+          <FilterCard products={data} onFilterChange={onFilterChange} />
+        )}
         <div className={style.searchContainer}>
           <input />
-          <div className={style.button}>Search</div>
+          <div className={style.button} onClick={handleClick}>
+            Search
+          </div>
         </div>
         <div className={style.viewContainer}>
           <div

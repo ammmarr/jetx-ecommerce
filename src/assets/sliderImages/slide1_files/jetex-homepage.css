@@ -1,0 +1,769 @@
+
+.ico_social{
+	width:50px;
+	height:50px;
+	cursor:pointer;
+	opacity:0.5 !important;
+	transition:300ms linear;
+}
+
+.ico_social:hover{
+	opacity:1 !important;
+}
+
+.social{
+    min-width:1000px !important;
+}
+   
+				.slick-prev{
+           	        position: absolute;
+					z-index: 100;
+					cursor: pointer;
+					top: 250px;
+					padding: 5px;
+					opacity: 0.5;
+					margin-left:25px;
+					padding-left:12px;
+					left: -5px;
+					opacity:0.9;
+					
+				}
+            
+			.material-icons
+				{
+				color:#ffffff;
+				}
+   
+            .slick-next{
+				position: absolute;
+					z-index: 100;
+					cursor: pointer;
+					top: 250px;
+					padding: 5px;
+					opacity: 0.5;
+					margin-right: 25px;
+					padding-right: 10px;
+					right: -5px;
+					opacity:0.9;
+            }
+			
+			.arrow{
+				color:#fff;
+			}
+			.arrow_hov{
+				color:#333333 !important;
+			}
+			
+			.slick-next:hover{
+				opacity:1
+			}
+			
+			.slick-prev:hover{
+				opacity:1
+			}
+
+             .slick-slide {
+                  transition: all ease-in-out .3s;
+                  opacity: .5;
+                }
+                
+                .slick-active {
+                  opacity: .5;
+                }
+
+                .slick-current {
+                  opacity: 1;
+                }
+                
+                .slick-active:hover{
+                    opacity:1 !important;
+                }
+   
+   .blog-item{
+            margin:0px;
+            padding:0px;
+            height:550px !important;
+            background-position: center center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+            margin:0px;
+            padding:0px;
+        }
+        
+        
+        .blog-item > a{
+            text-decoration:none;
+            font-weight:bold;
+            color:#333333;
+        }
+        
+        .blog-item > a:link {
+          background-color: transparent;
+          text-decoration: none;
+		  cursor: -webkit-grabbing; cursor: grabbing;
+        }
+		
+
+        .blog-item > a:visited {
+          color:#333333;
+          background-color: transparent;
+          text-decoration: none;
+		  cursor: -webkit-grabbing; cursor: grabbing;
+        }
+
+        .blog-item > a:hover {
+          color:#333333;
+          background-color: transparent;
+          text-decoration: none;
+		  cursor: -webkit-grabbing; cursor: grabbing;
+        }
+
+        .blog-item > a:active {
+          color:#333333;
+          background-color: transparent;
+          text-decoration: none;
+		  cursor: -webkit-grabbing; cursor: grabbing;
+        }
+
+        .blog-link{
+            padding-left:50px;
+            padding-right:50px;
+            margin-top:200px;
+        }
+   
+		.text{
+        
+			font-family: 'Josefin Sans' !important;
+            font-size:16px !important;
+            font-weight:300;
+            color:#333333;
+        }
+		
+		.card-container{
+            overflow: hidden;
+            font-family: 'Josefin Sans';
+            display: table-cell !important; 
+            vertical-align: middle !important;
+        }
+        
+        .card-container > .font{
+            margin-bottom: 0px !important;
+        }
+
+        .card-container > .sub-heading{
+            margin-top: 0px !important;
+        }
+        
+        .card-container > .sub-heading{
+            font-family: 'Josefin Sans' !important;
+            font-size:20px;
+            font-weight:300;
+            color:#333333;
+        }
+        .card-container > .text{
+            font-family: 'Josefin Sans' !important;
+            font-size:16px;
+            font-weight:300;
+            color:#333333;
+        }
+        
+        .card-seperator{
+            border-top:5px solid #ff6900;
+            width:50px;
+        }
+   
+		.sub-heading{
+            font-family: 'Josefin Sans' !important;
+            font-size:20px;
+            font-weight:300;
+            color:#333333;
+        }
+   
+		.fuel{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/06/Jetex-Fuel.jpg") !important;
+        }
+        
+        .trip-planning{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/06/Jetex-Trip-Planning.jpg") !important;
+        }
+        
+        .experience{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/06/Jetex-Experience.jpg") !important;
+        }
+        
+        .concierge-service{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/01/jetex-cs-image-home.jpg") !important;
+        }
+
+        .aircraft-sales{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/01/jetex-selling-aircraft.jpg") !important;
+        }
+
+        .hondajet{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/06/Jetex-Hondajet.jpg") !important;
+        }
+
+        .card-desktop{
+            width:100%;
+            height:750px;
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+        }
+        
+        .ourstory{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/02/Jetex-CEO-Adel-Mardini.jpg");
+            width:100%;
+            height:750px;
+            background-position: center center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: contain; /* Resize the background image to cover the entire container */
+        }
+        
+        .meta{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/07/Jetex-Metaverse-Thumbnail.jpg");
+        }
+   
+        .default {
+          border-color: #fff;
+          color: #fff;
+          transition-duration: 0.3s;
+        }
+
+        .default:hover {
+            border:1px solid #fff;
+            color:#333333;
+            background-color:#fff;
+        }
+        
+        .discover{
+            border: 1px solid #333333;
+            color: #333333;
+            transition-duration: 0.3s;
+            font-family: 'Josefin Sans' !important;
+			font-weight:300;
+        }
+        
+        .discover:hover {
+            border-color: #ffffff;
+            color: #ffffff;
+            background-color: #333333;
+        }
+   
+        .search_item{
+            padding-left:15px;
+            padding-right:15px;
+            padding-top:15px;
+            padding-bottom:2px;
+            cursor:pointer;
+            font-family:'Josefin Sans';
+        }
+        
+        .search_seperator{
+            width:100%;
+            border-bottom:1px solid #ccc;
+            padding-bottom:5px;
+        }
+
+	#location {
+		border: 0px;
+		border-bottom: 1px solid #fff !important;
+		font-size: 18px;
+		background-color: Transparent;
+		color: #fff;
+		width: 525px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 10px;
+		z-index: 1;
+		font-family: Josefin Sans;
+		padding-left: 27px;
+	}
+   
+		.search-ico{
+			font-size: 25px;
+			color: #fff;
+			position: absolute;
+			width: 40px;
+			min-height: 40px;
+			z-index: 2;
+			top: 95px;
+		}
+   
+		.holder-image {
+			position: absolute;
+			width: 40px;
+			min-height: 40px;
+			z-index: 2;
+			bottom: 30px;
+			background-image: url(https://www.jetex.com/wp-content/themes/Jetex-Theme/images/i-37-36.png);
+			background-repeat: no-repeat;
+			margin-left: 48%;
+			margin-right: 48%;
+			animation: MoveUpDown 1s linear infinite;
+			transition-duration: 0.2s;
+			cursor: pointer;
+		}
+	
+		#video_box {
+			float: left;
+			width: 100%;
+		}
+	
+		#video_overlays {
+			position: absolute;
+			float: left;
+			width: 100%;
+			background-color: #0000009e;
+			z-index: 1;
+		}
+	
+		.font{
+			
+			font-family: 'Josefin Sans' !important;
+			color: #333333 !important;
+			font-weight: 600 !important;
+			font-size: 20px !important;
+		}
+		
+		.search_image{
+			background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Discover-Jetex-Terminals-overlay.jpg") !important;
+			width:100%;
+			height:700px;
+			background-position: center; /* Center the image */
+			background-repeat: no-repeat; /* Do not repeat the image */
+			background-size: cover; /* Resize the background image to cover the entire container */
+		}
+        
+		.search_image > h2{
+			color:#fff !important;
+			text-align:center;
+			padding-top:200px;
+		}
+	
+		.discover{
+		
+			border: 1px solid #333333;
+			color: #333333;
+			transition-duration: 0.3s;
+			font-family: 'Josefin Sans' !important;
+			font-weight:300;
+		}
+        
+    .discover:hover {
+            border-color: #ffffff;
+            color: #ffffff;
+            background-color: #333333;
+    }
+	
+	 @media only screen and (max-width: 768px) {
+		 
+		 
+		    .slick-prev{
+top:175px;
+			}     
+
+			.slick-next{
+top:175px;
+			}     
+		 
+		 .search-ico{
+			 font-size: 25px;
+			color: #fff;
+			position: absolute;
+			width: 40px;
+			min-height: 40px;
+			z-index: 2;
+			left: 30px;
+			bottom: -5px;
+			top: auto;
+		 }
+		 
+		 #location {
+  border: 0px;
+    border-bottom: 1px solid #fff !important;
+    font-size: 18px;
+    background-color: Transparent;
+    color: #fff;
+    width: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 10px; */
+    z-index: 1;
+    font-family: Josefin Sans;
+    padding-left: 27px;
+}
+			
+			.slick-slide.slick-active {
+				opacity: 1 !important;
+			}
+            
+        #all_fbos{
+            margin-top:5px;
+        }
+            
+        .fuel{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Fuel-pic.jpg") !important;
+        }
+        
+        .trip-planning{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Trip-Planning-Pic.jpg") !important;
+        }
+        
+        .experience{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Experience-Pic.jpg") !important;
+        }
+        
+        .concierge-service{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/01/jetex-cs-image-home.jpg") !important;
+        }
+
+        .aircraft-sales{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/01/jetex-selling-aircraft.jpg") !important;
+        }
+
+        .hondajet{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Hondajet-Elite-Pic.jpg") !important;
+        }
+            
+            #beesenderchat{
+                display:none;
+            }
+            
+            #video{
+                width:100% !important;
+                height:650px !important;
+                object-fit: cover !important;
+                overflow: hidden !important;
+            }
+
+            #overlay{
+                  top:0;
+                  position: absolute;
+                  width: 100%;
+                  opacity:10%;
+                  background-color: rgba(0,0,0,0.5);
+                  height:650px;
+            }
+
+            .font{
+                font-family: 'Josefin Sans';
+            }
+            
+            h2{
+                font-family: 'Josefin Sans' !important;
+                font-size:20px !important;
+                color:#333333 !important;
+            }
+            .mobile-sub{
+                font-family: 'Josefin Sans'!important;
+                font-size:16px !important;
+                margin-top:5px;
+                margin-bottom:5px;
+                margin-top:0px !important;
+                font-size:20px;
+                font-weight:300;
+                color:#333333;
+            }
+
+            .search_image{
+                height:350px;
+            }
+
+            .mobile-search{
+                padding-top:100px !important;
+            }
+
+            .spacer{
+                margin-top: 10px !important;
+                margin-bottom: 10px !important;
+            }
+
+            .desktop-search{
+                display:none ! important;
+            }
+
+            .mobile-search{
+                display:block !important;
+            }
+
+            #search_fbo{
+                padding:5px;
+                font-size:12px;
+                width:50%;
+            }
+            
+                .fuel{
+                    background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Fuel-pic.jpg") !important;
+                }
+                
+                .trip-planning{
+                    background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Trip-Planning-Pic.jpg") !important;
+                }
+                
+                .experience{
+                    background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Experience-Pic.jpg") !important;
+                }
+                
+                .concierge-service{
+                    background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/01/jetex-cs-image-home.jpg") !important;
+                }
+
+                .aircraft-sales{
+                    background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/01/jetex-selling-aircraft.jpg") !important;
+                }
+        
+                .hondajet{
+                    background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Hondajet-Elite-Pic.jpg") !important;
+                }
+                
+                .card{
+                    width:100%;
+                    height:350px;
+					background-position: top top;
+					background-repeat: no-repeat;
+					background-size: cover;
+					border-radius:0px;
+					border:0px !important;
+                }
+            
+				.card-container{
+					overflow: hidden;
+					height: 300px !important;
+					font-family: 'Josefin Sans';
+					padding-left:30px;
+					padding-right:10px;
+					display: table-cell !important; 
+					vertical-align: middle !important;
+					font-size:16px !important;
+					color:#333333;
+				}
+        
+				.desktop{
+					display:none !important;
+				}
+				
+				.mobile{
+					display:block !important;
+				}
+                
+            .ourstory{
+                background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/02/Jetex-CEO-Adel-Mardini.jpg");
+                width:100%;
+                height:450px;
+                background-position: center center; /* Center the image */
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-size: contain; /* Resize the background image to cover the entire container */
+            }
+        
+        
+        
+            .blog-item{
+                margin:0px;
+                padding:0px;
+                height:400px !important;
+                background-position: center center; /* Center the image */
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-size: cover; /* Resize the background image to cover the entire container */
+                margin:0px;
+                padding:0px;
+            }
+            
+            .main_board {
+                display:grid;
+                grid-template-columns: 1fr;
+                grid-gap:20px;
+                color:#444;
+                width:100%;
+                padding-bottom:10px;
+            }
+			
+			
+        }
+		
+		 /** Tablet **/
+    @media only screen 
+    and (min-device-width: 719px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+		.tab-header{
+	height:500px !important;
+}
+		
+		.card{
+                    width:100%;
+                    height:550px;
+					background-position: center center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					border-radius:0px;
+					border:0px !important;
+					padding-left:50px;
+					padding-right:50px;
+        }
+
+        .storycard{
+            width:100%;
+            height:550px;
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius:0px;
+            border:0px !important;
+            padding-left:50px;
+            padding-right:50px;
+}
+        
+		.slick-slide.slick-active {
+				opacity: 1 !important;
+			}
+		
+        #all_fbos{
+            margin-top:10px;
+        }
+        
+        .tabscreen{
+            width:100% !important; 
+        }
+        
+                .fuel{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Fuel-pic.jpg") !important;
+        }
+        
+        .trip-planning{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Trip-Planning-Pic.jpg") !important;
+        }
+        
+        .experience{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Experience-Pic.jpg") !important;
+        }
+        
+        .concierge-service{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/01/jetex-cs-image-home.jpg") !important;
+        }
+
+        .aircraft-sales{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2023/01/jetex-selling-aircraft.jpg") !important;
+        }
+
+        .hondajet{
+            background-image: url("https://jetexcdn.sfo2.cdn.digitaloceanspaces.com/jetex.com/wp-content/uploads/2020/03/Hondajet-Elite-Pic.jpg") !important;
+        }
+        
+        .col-5 {
+            width: 96% !important;
+        }
+        .hidden-sm{
+            display:none !important;
+        }
+        .spacer{
+            margin:2px;
+        }
+        .desktop{
+            display:none !important;
+            }
+        .mobile{
+            display:block !important;
+        }
+        .card-container{
+            overflow: hidden;
+            font-family: 'Josefin Sans';
+            padding-left:60px;
+            padding-right:50px;
+            display: table-cell !important; 
+            vertical-align: middle !important;
+        }
+        
+        .main_board {
+            display:grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-gap:20px;
+            color:#444;
+            width:100%;
+            padding-bottom:10px;
+        }
+        
+    }
+	
+	        #all_fbos{
+            margin-top:50px;
+        }
+		
+		.btn {
+            border: 1px solid #333333;
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            color: #333333;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+			border-radius: 0px;
+        }
+		
+		.default {
+          border-color: #fff;
+          color: #fff;
+          transition-duration: 0.3s;
+        }
+
+        .default:hover {
+            border:1px solid #fff;
+            color:#333333;
+            background-color:#fff;
+        }
+		
+		
+		.btnv{
+			position:absolute;
+			top: 74%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+		}
+		.btnv1{
+			position:absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			text-align:center;
+		}
+
+		.btnv2{
+			position:absolute;
+			top: 70%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			text-align:center;
+		}
+		
+		#wc-parent-cta:hover{
+			text-decoration:none;
+		}
+		
+		/* Extra small devices (phones, 600px and down) */
+		@media only screen and (max-width: 600px) {
+			.btnv1{
+				font-size: 32px;
+			}
+			.btnv2{
+				top: 85% !important;
+				font-size: 18px !important;
+			}
+
+		}
+
+		/* Small devices (portrait tablets and large phones, 600px and up) */
+		@media only screen and (min-width: 600px) {
+			.btnv1{
+				font-size: 37px;
+			}
+		}
+
+		/* Medium devices (landscape tablets, 768px and up) */
+		@media only screen and (min-width: 768px) {
+			.btnv1{
+				font-size: 37px;
+			}
+		}
