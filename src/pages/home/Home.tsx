@@ -1,29 +1,27 @@
-import { useEffect, useState } from "react";
-import DisplayProducts from "../../components/DisplayProducts/DisplayProducts";
-import FilterCard from "../../components/filterCard/FilterCard";
-import style from "./index.module.scss";
-import transition from "../../utils/pageTranistion/transition";
+import { useState } from "react";
 import productsData from "../../assets/productsData";
+import DisplayProducts from "../../components/DisplayProducts/DisplayProducts";
 import Navbar from "../../components/navbar/Navbar";
+import transition from "../../utils/pageTranistion/transition";
+import style from "./index.module.scss";
 
-interface FilterObject {
-  brand: string[];
-  itemGroup: string[];
-}
+// interface FilterObject {
+//   brand: string[];
+//   itemGroup: string[];
+// }
 const Products = () => {
-  const [listOfProducts, setListOfProducts] = useState([]);
-  const [filteredProducts, setFilteredProducts] = useState<any[]>([]);
-  const [filterObject, setFilterObject] = useState<FilterObject>({
-    brand: [],
-    itemGroup: [],
-  });
+  // const [listOfProducts, setListOfProducts] = useState([]);
+  // const [filteredProducts, setFilteredProducts] = useState<any[]>([]);
+  // const [filterObject, setFilterObject] = useState<FilterObject>({
+  //   brand: [],
+  //   itemGroup: [],
+  // });
   // Handle filter change
 
-  const handleFilterChange = (e: any) => {
-    const inputCategory = e.target.getAttribute("data-inputCategory");
-    const checked = e.target.checked;
-    const value = e.target.value;
-
+  const handleFilterChange = () => {
+    // const inputCategory = e.target.getAttribute("data-inputCategory");
+    // const checked = e.target.checked;
+    // const value = e.target.value;
     // if (checked && inputCategory == "brand") {
     //   const filteredArray = [...filterObject.brand].filter(
     //     (item) => item != value
@@ -55,12 +53,11 @@ const Products = () => {
     //   setFilterObject({ ...filterObject, itemGroup: [...filteredArray] });
     //   return;
     // }
-    console.log(value);
+    // console.log(value);
   };
   const [data, setData] = useState(productsData);
-  const [error, setError] = useState("");
-
-  let numberofSlidesToShow = 3;
+  // const [error, setError] = useState("");
+  console.log(setData);
 
   //   useEffect(() => {
   //     async function getDataFunction() {

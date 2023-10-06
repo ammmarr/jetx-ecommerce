@@ -1,14 +1,11 @@
-import { Link } from "react-router-dom";
+import axios from "axios";
+import { useEffect, useState } from "react";
 import p1 from "../../assets/productsImages/p1.jpeg";
 import style from "./index.module.scss";
-import axios from "axios";
-import { useState, useEffect } from "react";
 const HeroProductCard = () => {
   const [data, setData] = useState([]);
   const [error, setError] = useState("");
-
-  let numberofSlidesToShow = 3;
-
+  console.log(error);
   useEffect(() => {
     async function getDataFunction() {
       const url =

@@ -6,7 +6,7 @@ interface FilterCardProps {
   products: any;
   onFilterChange: Function;
 }
-function FilterCard({ products, onFilterChange }: FilterCardProps) {
+function FilterCard({ onFilterChange }: FilterCardProps) {
   // Use state to track the selected filters
   const [filterOpen, setFilterOpen] = useState(false);
   return (
