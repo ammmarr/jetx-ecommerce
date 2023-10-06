@@ -20,7 +20,7 @@ const DisplayProducts: React.FC<DisplayProductsProps> = (props) => {
         <FilterCard products={data} onFilterChange={onFilterChange} />
         <div className={style.searchContainer}>
           <input />
-          <button className="button">Search</button>
+          <div className={style.button}>Search</div>
         </div>
         <div className={style.viewContainer}>
           <div

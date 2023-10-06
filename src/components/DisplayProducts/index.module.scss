@@ -17,6 +17,29 @@
       padding: 20px 0;
       display: flex;
 
+      .button {
+        width: fit-content;
+        padding: 15px 20px;
+        font-weight: 200;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+        white-space: nowrap;
+        outline: none;
+        border: 1px solid var(--dark);
+        color: var(--dark);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        text-decoration: none;
+        &:hover {
+          transform: scale(0.95);
+          background-color: rgb(27, 27, 27);
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          color: white;
+        }
+      }
       input {
         padding: 0 10px;
         width: 100%;
@@ -41,5 +64,11 @@
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       border: 1px solid var(--dark);
     }
+  }
+}
+@media (max-width: 1000px) {
+  .button {
+    font-size: 10px !important;
+    padding: 0 3% !important;
   }
 }

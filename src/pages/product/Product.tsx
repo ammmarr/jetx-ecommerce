@@ -1,11 +1,13 @@
 import productsData from "../../assets/productsData";
 import HeroProductCard from "../../components/HeroProductCard/HeroProductCard";
+import Navbar from "../../components/navbar/Navbar";
 import ProductCard from "../../components/productCard/ProductCard";
 import transition from "../../utils/pageTranistion/transition";
 import style from "./index.module.scss";
 const Home = () => {
   return (
     <>
+      <Navbar />
       <div className={style.container}>
         <HeroProductCard />
         <div className={style.moreProducts}>
