@@ -20,7 +20,7 @@ const SlideWrapper = (props: any) => {
             is Ammar's shop
           </h3>
 
-          <Link to="Shop" style={{ textDecoration: "none" }}>
+          <Link to="/products" style={{ textDecoration: "none" }}>
             <button className="button type1">View More</button>
           </Link>
         </div>

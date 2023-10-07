@@ -119,6 +119,9 @@
   }
   .button.type1 {
     color: white;
+    background-color: transparent !important;
+    border: none;
+    
   }
   .button.type1.type1::after,
   .button.type1.type1::before {
