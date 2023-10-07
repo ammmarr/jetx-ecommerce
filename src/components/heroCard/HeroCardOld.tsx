@@ -48,7 +48,7 @@ const HeroCardOld = () => {
 
   //slide right function onclicking the arrow
   function slideRight() {
-    if (slider >= 0 && slider < 2) {
+    if (slider >= 0 && slider < 1) {
       setSlider((prev) => prev + 1);
     } else {
       setSlider(0);
@@ -61,7 +61,7 @@ const HeroCardOld = () => {
       if (slider > 0 && slider <= 2) {
         setSlider(slider - 1);
       } else {
-        setSlider(2);
+        setSlider(1);
       }
     },
     [slider]

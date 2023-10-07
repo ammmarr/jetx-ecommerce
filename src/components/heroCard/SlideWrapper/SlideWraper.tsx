@@ -15,10 +15,7 @@ const SlideWrapper = (props: any) => {
         <div className="text-positioning">
           <h2>{props.slideData.type}</h2>
           <h1>{props.slideData.h1}</h1>
-          <h3>
-            The perfect place for Artisitic, Minimal and Modern furniture. This
-            is Ammar's shop
-          </h3>
+          <h3>{props.slideData.desc}</h3>
 
           <Link to="/products" style={{ textDecoration: "none" }}>
             <button className="button type1">View More</button>

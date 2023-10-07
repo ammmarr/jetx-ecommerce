@@ -76,6 +76,9 @@ const DisplayProducts: React.FC<DisplayProductsProps> = (props) => {
         : data.map((item: any, i: number) => (
             <ProductCardSquare data={item} key={i} />
           ))}
+      <div className={style.buttonContainer}>
+        <div className="button">Load more products ...</div>
+      </div>
     </div>
   );
 };

@@ -13,16 +13,9 @@ const heroSliderData = [
   {
     img: HeroSliderimg2,
     id: "2",
-    type: "Premier Experience",
-    h1: "Elite travel management.",
-    desc: "Whether it is thrilling and adrenaline rushing, or relaxing and rejuvenating,our Experience Team will design a personalized trip of a lifetime for you.",
-  },
-  {
-    img: HeroSliderimg3,
-    id: "3",
-    type: "HondaJet",
-    h1: "Exclusive HondaJet dealer",
-    desc: "As the sole representative of HondaJet in the Middle East, Jetex is bringing the next-generation light aircraft to the region, offering sales and support to owners and operators across the Gulf and Middle East market.",
+    type: "",
+    h1: "LUXURY GIFTS STORE ",
+    desc: "Luxurious, well-crafted, genuine materials gifts, made by the people of Jetex to your beloved ones",
   },
 ];
 

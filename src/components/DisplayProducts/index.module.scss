@@ -65,6 +65,11 @@
       border: 1px solid var(--dark);
     }
   }
+  .buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (max-width: 1000px) {
   .button {
