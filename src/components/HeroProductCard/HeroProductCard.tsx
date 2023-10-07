@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import p1 from "../../assets/productsImages/p1.jpeg";
+import p1 from "../../assets/productsImages/p (3).png";
 import style from "./index.module.scss";
 const HeroProductCard = () => {
   const [data, setData] = useState([]);

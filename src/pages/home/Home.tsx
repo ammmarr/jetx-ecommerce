@@ -1,10 +1,11 @@
 import { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import productsData from "../../assets/productsData";
-import DisplayProducts from "../../components/DisplayProducts/DisplayProducts";
+import HeroCardOld from "../../components/heroCard/HeroCardOld";
+import ImagesAndText from "../../components/imagesAndText/ImagesAndText";
 import Navbar from "../../components/navbar/Navbar";
 import transition from "../../utils/pageTranistion/transition";
 import style from "./index.module.scss";
-import HeroCard from "../../components/heroCard/HeroCard";
 
 // interface FilterObject {
 //   brand: string[];
@@ -58,7 +59,6 @@ const Products = () => {
   };
   const [data, setData] = useState(productsData);
   // const [error, setError] = useState("");
-  console.log(setData);
 
   //   useEffect(() => {
   //     async function getDataFunction() {
@@ -88,16 +88,28 @@ const Products = () => {
   //     });
   //     setFilteredProducts(filtered);
   //   }, [filterObject]);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const displayFilters = location.pathname != "/" ? true : false;
+  function handleClick() {
+    !displayFilters && navigate("/products");
+  }
   return (
     <>
       <Navbar />
-      <HeroCard />
+      <HeroCardOld />
       <div className={style.container}>
         <h1>
           Featured Products <span>!</span>
         </h1>
         <div className={style.filterAndDisplayContainer}>
-          <DisplayProducts data={data} onFilterChange={handleFilterChange} />
+          <div className={style.searchContainer}>
+            <input />
+            <div className={style.button} onClick={handleClick}>
+              Search
+            </div>
+          </div>
+          <ImagesAndText />
         </div>
       </div>
     </>
