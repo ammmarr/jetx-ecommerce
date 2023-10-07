@@ -20,6 +20,8 @@
     height: 100vh;
     margin: 0px;
     object-fit: cover;
+    filter: brightness(60%);
+
   }
   .arrow {
     transform: scale(2);

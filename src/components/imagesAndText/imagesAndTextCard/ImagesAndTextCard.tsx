@@ -6,37 +6,30 @@ interface ImagesAndTextCards {
   direction: "left" | "right";
 }
 
-const ImagesAndTextCard: FC<ImagesAndTextCards> = ({ direction }) => {
+const ImagesAndTextCard: FC<ImagesAndTextCards> = ({ direction, data }) => {
   const width = window.innerWidth;
   let displayedDirection = direction.slice();
 
   if (width < 830) {
     displayedDirection = "left";
-    console.log("r");
-    console.log(displayedDirection);
   }
-
+  console.log(data.img);
   return (
     <div className={style.wrapperr}>
       {displayedDirection == "left" && (
         <div className={style.imageContainer}>
-          <img src={demo} />
+          <img src={data.img} />
         </div>
       )}
 
       <div className={style.textContainer}>
-        <h2>dasfa</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
-          praesentium maiores iusto impedit magnam veniam placeat commodi eos
-          sint repellat sit, similique corrupti aliquam beatae quibusdam numquam
-          totam at quidem.
-        </p>
-        <div className="button"> ada</div>
+        <h2>{data.name}</h2>
+        <p>{data.shortDescription}</p>
+        <div className="button">Learn more</div>
       </div>
       {displayedDirection == "right" && (
         <div className={style.imageContainer}>
-          <img src={demo} />
+          <img src={data.img} />
         </div>
       )}
     </div>
