@@ -4,7 +4,7 @@ import HeroSliderimg3 from "../assets/sliderImages/slide3.jpg";
 
 const heroSliderData = [
   {
-    img: HeroSliderimg1,
+    img: HeroSliderimg2,
     id: "1",
     type: "",
     h1: "CREATE A MEMORABLE JOURNEY",
