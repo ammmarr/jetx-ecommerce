@@ -11,7 +11,7 @@ const heroSliderData = [
     desc: "Make a memory for flying with Jetex and keep a souvenir that is made with care, specially for you",
   },
   {
-    img: HeroSliderimg2,
+    img: HeroSliderimg3,
     id: "2",
     type: "",
     h1: "LUXURY GIFTS STORE ",

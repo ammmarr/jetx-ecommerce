@@ -1,6 +1,7 @@
 import { FC } from "react";
 import style from "./index.module.scss";
 import demo from "../../../assets/productsImages/p (0).jpeg";
+import { Link } from "react-router-dom";
 interface ImagesAndTextCards {
   data?: any;
   direction: "left" | "right";
@@ -25,7 +26,9 @@ const ImagesAndTextCard: FC<ImagesAndTextCards> = ({ direction, data }) => {
       <div className={style.textContainer}>
         <h2>{data.name}</h2>
         <p>{data.shortDescription}</p>
-        <div className="button">Learn more</div>
+        <Link className="button" to={"/products"}>
+          Learn more
+        </Link>
       </div>
       {displayedDirection == "right" && (
         <div className={style.imageContainer}>

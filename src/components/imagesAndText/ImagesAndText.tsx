@@ -12,6 +12,9 @@ const ImagesAndText = () => {
       <ImagesAndTextCard direction="left" data={data[0]} key={1} />
       <ImagesAndTextCard direction="right" data={data[9]} key={2} />
       <ImagesAndTextCard direction="left" data={data[2]} key={3} />
+      <div className={style.buttonContainer}>
+        <div className="button">Load more products ...</div>
+      </div>
     </div>
   );
 };

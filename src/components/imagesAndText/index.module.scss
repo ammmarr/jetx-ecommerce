@@ -6,4 +6,9 @@
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+  .buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
