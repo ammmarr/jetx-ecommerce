@@ -6,9 +6,9 @@ const heroSliderData = [
   {
     img: HeroSliderimg1,
     id: "1",
-    type: "Fuel Service",
-    h1: "Jet Fuel anywhere in the world.",
-    desc: "We have built robust partnerships with over 600 certified and internationally recognized fuel suppliers to provide you premium jet fuel at the most competitive rates",
+    type: "",
+    h1: "CREATE A MEMORABLE JOURNEY",
+    desc: "Make a memory for flying with Jetex and keep a souvenir that is made with care, specially for you",
   },
   {
     img: HeroSliderimg2,
