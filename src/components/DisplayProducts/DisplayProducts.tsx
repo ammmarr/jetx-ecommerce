@@ -1,6 +1,6 @@
 import GridViewIcon from "@mui/icons-material/GridView";
 import ListIcon from "@mui/icons-material/List";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import FilterCard from "../filterCard/FilterCard";
 import ProductCard from "../productCard/ProductCard";
@@ -20,6 +20,15 @@ const DisplayProducts: React.FC<DisplayProductsProps> = (props) => {
   function handleClick() {
     !displayFilters && navigate("/products");
   }
+  const width = window.innerWidth;
+  let gridViewDisplay = true;
+  useEffect(() => {
+    if (width < 855) {
+      gridViewDisplay = false;
+      setGridView(false);
+    }
+  }, []);
+
   return (
     <div className={style.container}>
       <div className={style.optionContainer}>
@@ -32,30 +41,32 @@ const DisplayProducts: React.FC<DisplayProductsProps> = (props) => {
             Search
           </div>
         </div>
-        <div className={style.viewContainer}>
-          <div
-            className={style.iconBg}
-            style={
-              gridView
-                ? { backgroundColor: "transparent", color: "var(--dark)" }
-                : { backgroundColor: "var(--dark)" }
-            }
-            onClick={() => setGridView(false)}
-          >
-            <GridViewIcon />
+        {gridViewDisplay && (
+          <div className={style.viewContainer}>
+            <div
+              className={style.iconBg}
+              style={
+                gridView
+                  ? { backgroundColor: "transparent", color: "var(--dark)" }
+                  : { backgroundColor: "var(--dark)" }
+              }
+              onClick={() => setGridView(false)}
+            >
+              <GridViewIcon />
+            </div>
+            <div
+              className={style.iconBg}
+              style={
+                !gridView
+                  ? { backgroundColor: "transparent", color: "var(--dark)" }
+                  : { backgroundColor: "var(--dark)" }
+              }
+              onClick={() => setGridView(true)}
+            >
+              <ListIcon />
+            </div>
           </div>
-          <div
-            className={style.iconBg}
-            style={
-              !gridView
-                ? { backgroundColor: "transparent", color: "var(--dark)" }
-                : { backgroundColor: "var(--dark)" }
-            }
-            onClick={() => setGridView(true)}
-          >
-            <ListIcon />
-          </div>
-        </div>
+        )}
       </div>
 
       {gridView

@@ -155,7 +155,7 @@
     width: 110%;
     height: 110%;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .text-section .text-positioning h2 {
       font-size: 25px;
       text-transform: uppercase;
